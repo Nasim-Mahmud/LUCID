@@ -171,3 +171,29 @@ a, a:hover{
 	color: #999999;
 	line-height: 24px;
 }
+
+.about-long{
+	width: 100%;
+	padding: 80px 0px;
+	border-top: 2px solid #eee;
+}
+.about-long .title{
+
+	margin: 40px 0px 25px;
+}
+
+.about-long .content{
+	font-size: 14px;
+	color: #999999;
+	line-height: 24px;
+}
+.about-long .list-para{
+	font-size: 14px;
+	color: #000;
+	line-height: 30px;
+	font-weight: 600;
+
+}
+.about-long .list-para img{
+	margin-right: 5px;
+}
