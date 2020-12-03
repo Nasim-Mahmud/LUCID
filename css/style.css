@@ -267,6 +267,10 @@ a, a:hover{
 
 .testimonial .owl-theme .owl-nav.disabled+.owl-dots {
 	margin-top: 80px;
+	color: #eee;
+}
+.testimonial .owl-theme .owl-dots .owl-dot.active span{
+	background: #fff;
 }
 /*Testimonial ends*/
 
@@ -287,7 +291,7 @@ a, a:hover{
 }
 .eye .inner-btn{
 	width: 100%;
-	/*margin-top: 60px;*/
+	text-align: right;
 }
 .eye .inner-btn .btn-primary{
 	padding: 10px 15px;
