@@ -449,6 +449,7 @@ a, a:hover{
 	width: 100%;
 	padding: 60px 60px 30px;
 	background: #15141a;
+	margin-bottom: -90px
 }
 .main-form .form-control{
 	background: transparent;
@@ -483,3 +484,18 @@ a, a:hover{
 .map{
 	width: 100%;
 }
+/*map ends*/
+
+/*Footer section starts*/
+
+.footer-section{
+	width: 100%;
+	padding: 30px 0px;
+	background: #15141a;
+}
+.footer-section .social-icons{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+/*Footer section ends*/
