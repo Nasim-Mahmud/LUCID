@@ -387,6 +387,7 @@ a, a:hover{
 }
 .price-section .card .card-body .price-text p a{
 	color: #008ed6;
+	font-weight: 700;
 }
 .price-section .card .card-body .btn-primary {
 	margin-bottom: 30px;
@@ -414,3 +415,71 @@ a, a:hover{
 	background: #008ed6;
 }
 /*Pricing section ends*/
+
+/*Contact Us section starts*/
+
+.contactUs{
+	width: 100%;
+	padding: 80px 0px 0px;
+	background: #ededed;
+}
+.contactUs .title{
+	text-align: center;
+	padding-bottom: 40px;
+}
+.contactUs .info-box{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 60px;
+}
+.contactUs .info-box .fa{
+	font-size: 30px;
+	color: #008ed6;
+	margin-bottom: 20px;
+}
+.contactUs .info-box p{
+	font-size: 16px;
+	color: #999999;
+	line-height: 24px;
+	font-weight: 500;
+	margin: 0px;
+}
+
+.main-form{
+	width: 100%;
+	padding: 60px 60px 30px;
+	background: #15141a;
+}
+.main-form .form-control{
+	background: transparent;
+	border: 1px solid #444348
+	color: #444348;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 12px;
+	height: auto;
+}
+.main-form .btn-primary {
+	margin-top: 10px;
+	padding: 10px 15px;
+	border-radius: 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+	color: #fff;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	transition: 1s;
+}
+.main-form .btn-primary:hover, .main-form .btn-primary:focus{
+	color: #008ed6;
+	background: transparent;
+	border: 1px solid #008ed6;
+}
+/*Contact Us section ends*/
+
+/*map starts*/
+.map{
+	width: 100%;
+}
