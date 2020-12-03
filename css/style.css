@@ -498,4 +498,32 @@ a, a:hover{
 	padding: 0px;
 	text-align: center;
 }
+.footer-section .social-icons ul{
+
+}
+.footer-section .social-icons li{
+	list-style: none;
+	display: inline-block;
+	padding: 0px 10px;
+}
+.footer-section .social-icons li a{
+	font-size: 20px;
+	color: #444348;
+	margin: 0px 8px 10px;
+	transition: 1s;
+}
+.footer-section .social-icons li a:hover{
+	color: #008ed6;
+}
+.footer-section .social-icons .fa{
+	font-size: 16px;
+	padding: 15px 0px;
+}
+.footer-section .social-icons p{
+	text-align: center;
+	font-size: 18px;
+	color: #444348;
+	line-height: 24px;
+	font-weight: 500;
+}
 /*Footer section ends*/
