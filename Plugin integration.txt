@@ -1,0 +1,4 @@
+StickUp.js
+wow.js
+Animate.css(use CDN link)
+Animated number counter plugin js(AnimationCounter.js)

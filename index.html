@@ -18,13 +18,16 @@
 
 	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
 
+	<!-- adding animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+
 	<title>LUCID | HOME</title>
 </head>
 <body>
 
-	<header class="header-section">
-		<div class="main-menu">
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<header class="header-section" id="home">
+		<div class="main-menu ">
+			<nav class="navbar navbar-expand-lg navbar-light navbar-wrapper">
 				<div class="container">
 					<a class="navbar-brand" href="index.html">
 						<img src="images/logo.png" alt="logo">
@@ -36,22 +39,22 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item active">
-								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+								<a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
 							</li>
 							<li class="nav-item ">
-								<a class="nav-link" href="#">Features </a>
+								<a class="nav-link" href="#feature">Features </a>
 							</li>
 							<li class="nav-item ">
-								<a class="nav-link" href="#">About </a>
+								<a class="nav-link" href="#about">About </a>
 							</li>
 							<li class="nav-item ">
-								<a class="nav-link" href="#">Testimonials </a>
+								<a class="nav-link" href="#testimonial">Testimonials </a>
 							</li>
 							<li class="nav-item ">
-								<a class="nav-link" href="#">Pricing </a>
+								<a class="nav-link" href="#price">Pricing </a>
 							</li>
 							<li class="nav-item ">
-								<a class="nav-link" href="#">Contact </a>
+								<a class="nav-link" href="#contact">Contact </a>
 							</li>
 						</ul>
 					</div>
@@ -83,8 +86,8 @@
 </div>
 </header>
 
-
-<section class="feature">
+<!-- feature section starts -->
+<section class="feature" id="feature">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -101,7 +104,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-3 wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">
 				<div class="inner-feature">
 					<div class="icon-box">
 						<i class="fa fa-desktop"></i>
@@ -113,7 +116,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-3">
+			<div class="col-md-3 wow slideInLeft" data-wow-duration="1s" data-wow-delay="1.4s">
 				<div class="inner-feature">
 					<div class="icon-box">
 						<i class="fa fa-cog"></i>
@@ -125,7 +128,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-3">
+			<div class="col-md-3 wow slideInLeft" data-wow-duration="1s" data-wow-delay="1.8s">
 				<div class="inner-feature">
 					<div class="icon-box">
 						<i class="fa fa-thumbs-up"></i>
@@ -137,7 +140,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-3">
+			<div class="col-md-3 wow slideInLeft" data-wow-duration="1s" data-wow-delay="2.2s">
 				<div class="inner-feature">
 					<div class="icon-box">
 						<i class="fa fa-mobile"></i>
@@ -152,10 +155,10 @@
 	</div>
 </section>
 
-<section class="about-long">
+<section class="about-long" id="about">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-6 wow slideInLeft" data-wow-duration="1s" data-wow-delay="2.2s">
 				<img src="images/devices.png" alt="" class="img-fluid">
 			</div>
 			<div class="col-md-6">
@@ -182,7 +185,7 @@
 	</div>
 </section>
 
-<section class="about-short">
+<section class="about-short" id="testimonial">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-5">
@@ -207,7 +210,7 @@
 	</div>
 </section>
 
-<section class="testimonial">
+<section class="testimonial" id="price">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -468,7 +471,7 @@
 
 <!-- Contact us section starts -->
 
-<section class="contactUs">
+<section class="contactUs" id="contact">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -548,7 +551,7 @@
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.089175439184!2d90.42270371429824!3d23.815427792207416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c64c46dc7541%3A0xcd98d3b733278242!2sNSU%20Main%20Campus%20Rd%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1606995567208!5m2!1sen!2sbd" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 	</div>
 </section>
-
+</body>
 <!-- Map section ends -->
 
 <!-- Footer starts -->
@@ -588,6 +591,8 @@
 
 <script src="js/bootstrap.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
+<script src="js/stickUp.min.js"></script>
+<script src="js/wow.min.js"></script>	
 
 <script>
 	$('.owl-carousel').owlCarousel({
@@ -609,9 +614,20 @@
 		}
 	})
 </script>
-</body>
-</html>
 
+		<script type="text/javascript">
+              //initiating jQuery
+              jQuery(function($) {
+              	$(document).ready( function() {
+                  //enabling stickUp on the '.navbar-wrapper' class
+                  $('.navbar-wrapper').stickUp();
+              });
+              });
 
+        </script>
+          
+        <script>
+          	new WOW().init();
+        </script>
 
-<!-- Review of class 9 at 37.00 min -->
+          </html>
